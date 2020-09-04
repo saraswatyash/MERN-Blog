@@ -15,7 +15,8 @@ const Article=new Schema({
     },
     tags:
     {
-        type:String
+        type:String,
+        default:"General"
     }
     
 

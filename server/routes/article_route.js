@@ -16,4 +16,15 @@ articleroute.post('/blog/articles',(req,res,next)=>{
         res.status(201).send(data);
     })
 })
+articleroute.put('/blog/articles/:id',(req,res,next)=>{
+    article.findByIdAndUpdate({_id:req.params.id},req.body,{useFindAndModify:false,new:true}).then(data=>{
+        res.send(data)
+    }).catch(next);
+})
+articleroute.delete('/blog/articles/:id',(req,res,next)=>{
+    article.findByIdAndDelete({_id:req.params.id},{useFindAndModify:false})
+    .then(data=>{
+        res.send(data);
+    })
+})
 module.exports=articleroute;
