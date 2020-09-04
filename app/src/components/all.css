@@ -1,0 +1,143 @@
+.login {
+    width: 400px;
+    margin:25vh;
+    font-family: Tahoma, Geneva, sans-serif;
+    text-align: center;
+    color: #4d4d4d;
+    font-size: 24px;
+    padding: 20px;
+    background-color:#20232a;
+    border-radius:15px;
+}
+.login input[type="password"],
+.login input[type="text"] {
+    width: 100%;
+    padding: 15px;
+    border: 0px solid #dddddd;
+    margin-bottom: 15px;
+    box-sizing:border-box;
+    color: ivory;
+}
+.login input[type="button"] {
+    width: 100%;
+    padding: 15px;
+    background-color: #535b63;
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+    color: #ffffff;
+}
+.user-profile
+{
+    float: left;
+    margin:5%;
+    left: 2px;
+    width: 30%;
+    box-shadow: 0 4px 8px 0 rgba(22, 20, 20, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.user-profile img{
+    height:200px;
+    width:150px;
+}
+.user-profile p
+{
+    padding:10px;
+}
+.user-create
+{
+    padding: 20px;
+    float: right;
+    left: 2px;
+    width: 60%;
+    box-shadow: 0 4px 8px 0 rgba(22, 20, 20, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.Articles h1{
+    float: left;
+}
+.Articles h4{
+    float: left;
+}
+.article-desc
+{
+    padding: 10px;
+    margin-top:10%;
+    left: 2px;
+    width:100%;
+    box-shadow: 0 4px 8px 0 rgba(22, 20, 20, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.home p
+{
+  float: right;
+}
+.home h5
+{
+    float: left;
+}
+.homee 
+{
+    background-color: greenyellow;
+    margin: 0px;
+    margin-bottom: 5%;
+    padding: 5px;
+}
+.home
+{
+    text-decoration:none;
+    width:40%;
+    display: inline-block;
+    margin:3px;
+}
+.btn-large{
+    margin: 10%;
+}
+.head
+{
+    margin-top: 8%;
+    padding:5px;
+    position: center;
+    background-color: greenyellow;
+    overflow: hidden;
+    box-shadow: 0 0 8px 0 rgba(22, 20, 20, 0.2), 0 0 20px 0 rgba(0, 0, 0, 0.19);
+}
+.posts h1
+{
+    width: 100%;
+    padding:15px;
+    position: center;
+    background-color: greenyellow;
+    box-shadow: 0 0 8px 0 rgba(22, 20, 20, 0.2), 0 0 20px 0 rgba(0, 0, 0, 0.19);
+}
+.hh
+{
+    width: auto;
+    height: auto;
+    padding: 5px;
+    margin:0px;
+    float: right;
+}
+.search{
+    padding: 3px;
+    width: 70%;
+    display: inline-block;
+}
+.hh1
+{
+    margin:0px;   
+}
+.art
+{
+    color: black;
+    margin:10%
+}
+.art input[type="button"]
+{
+    padding: 10px;
+    background-color: chartreuse;
+    width: 10%;
+    height: 10%;
+    border:0px;
+    border-radius: 5px;
+}
