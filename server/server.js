@@ -5,7 +5,7 @@ const userroute=require('./routes/user_route')
 const articleroute=require('./routes/article_route')
 const cors=require('cors')
 var app=express();
-mongoose.connect("mongodb+srv://db:db@cluster0.u8x7q.mongodb.net/db?retryWrites=true&w=majority",{ useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect("mongodb+srv://db:adm123@cluster0.u8x7q.mongodb.net/db?retryWrites=true&w=majority",{ useNewUrlParser: true, useUnifiedTopology: true });
 mongoose.connection.once('open', () => {
     console.log('Connection made to the MongoDB!!');
 });
